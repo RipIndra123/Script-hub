@@ -24,7 +24,7 @@ count = 0
 while plr.Data.Exp.Value - Data.Level.Value) > 0 do
     plr.Data.Level.Value = plr.Data.Level.Value + 1
     plr.Data.Points.Value = plr.Data.Points.Value + 3
-    plr.Data.Meme.Value = plr.Data.Meme-Meme.Value + 1
+    plr.Data.Meme-Meme.Value = plr.Data.Meme-Meme.Value + 1
     LevelUp({ plr })
     Notification.new("<Color=Yellow>Happy birthday!<Color=/>"):Display()
     count = count + 1
